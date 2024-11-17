@@ -5,8 +5,25 @@
 {% endblock %}
 
 {% block content %}
-    <h1 align = "center" style="margin-top:140px;">The evil Doofenshmirtz corporation</h1>
-    <h2 align = "center">The evil Doofenshmirtz corporation give you the opportunity to travel on any of the tours we offer.</h2>
+    <div style="display: flex; ">
+        <img class = "side-img" src="{{ url_for('home.static', filename = 'images/tour1.jpg') }}" alt="">
+        <div>
+            <h1 align = "center" style="margin-top:140px;">Welcome to the World of Travel!</h1>
+            <p align = "center">Dreaming of new adventures? Looking to explore unseen corners of the world or simply relax and unwind? We’re here to help you create the perfect getaway!</p>
+            <h1 align = "center">Why Choose Us?</h1>
+            <p align = "center">Unique itineraries for true explorers</p>
+            <p align = "center">Comfortable tours for the whole family</p>
+            <p align = "center">Exotic destinations at affordable prices</p>
+
+            <h1 align = "center">Your Vacation, Our Priority</h1>
+            <p align = "center">From sunny beaches to snowy peaks, find your ideal destination. We’ll handle tickets, accommodations, and activities so you can enjoy every moment.</p>
+            <h1 align = "center">Plan with Ease</h1>
+            <p align = "center">Our booking service makes everything simple. Share your preferences, and we’ll find the best options for you.</p>
+            <p align = "center">Start your journey today. The world is waiting for you.</p>
+        </div>
+        <img class = "side-img" src="{{ url_for('home.static', filename = 'images/tour2.jpg') }}" alt="">
+    </div>
+    
     <div class = "center_div">
         <h2 class = "title" align = "center">Feedback</h2>
     

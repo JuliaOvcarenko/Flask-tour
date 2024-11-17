@@ -62,6 +62,9 @@ body {
     font-family: "Inter";
 }
 
+.side-img {
+    width: 450px;
+}
 
 .center_div{
     width: 100vw;
